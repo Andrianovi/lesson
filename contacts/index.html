@@ -1,0 +1,1628 @@
+<!DOCTYPE html>
+<html xml:lang="ru-RU" lang="ru-RU">
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../fonts/montserrat/montserrat.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/footer.css">
+	<script src="../js/jquery-3.7.1.min.js"></script>
+	<script src="../js/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+	<script src="../js/header.js"></script>
+	<script src="../js/index.js"></script>
+	<title></title>
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__fix">
+			<div class="header__content">
+				<div class="header__group">
+					<a class="header__logo" href="/"><img class="header__logo-image" src="../images/header-ci-logo.png"
+							alt="АО ЦентрИнформ"></a>
+				</div>
+
+				<div class="header__group">
+					<a class="header__button_mobile-hide header__fix-title" href="/about/">
+						<p class="header-menu__title">Компания</p>
+					</a>
+
+					<a id="products-and-solutions-link" class="header__button_mobile-hide header__fix-title">
+						<p class="header-menu__title">Продукты и решения</p>
+					</a>
+
+					<a class=" header__button_mobile-hide header__fix-title" href="/support/">
+						<p class="header-menu__title">Техподдержка</p>
+					</a>
+
+					<a class="header__button_mobile-hide header__fix-title header__fix-title-no-margin"
+						href="/contacts/">
+						<p class="header-menu__title">Контакты</p>
+					</a>
+				</div>
+
+				<div class="header__group">
+					<a class="header__button_mobile-hide header__fix-colored-title" href="tel:88127405405">
+						<p class="header-menu__title">(812) 740-54-05, 303-90-20</p>
+					</a>
+
+					<a class="header__button_mobile-hide header__fix-button header__fix-title-no-margin show-popup">
+						Напишите нам
+					</a>
+				</div>
+			</div>
+
+			<div class="header__content header-menu_mobile-visible">
+				<a class="header__button_mobile-visible"
+					href="https://yandex.ru/maps/2/saint-petersburg/house/ulitsa_komsomola_1_3as/Z0kYdQBgS0IHQFtjfXV0d3hrZA==/?ll=30.371842%2C59.956350&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=17"
+					target="_blank" rel="nofollow">
+					<img class="header__button_mobile-icon" src="../images/mobile-menu/contacts.svg" alt="Контакты">
+				</a>
+
+				<a class="header__button_mobile-visible show-popup">
+					<img class="header__button_mobile-icon" src="../images/mobile-menu/email.svg" alt="Email">
+				</a>
+
+				<a class="header__button_mobile-visible" href="tel:88127405405">
+					<img class="header__button_mobile-icon" src="../images/mobile-menu/phone.svg" alt="Телефон">
+				</a>
+
+				<a class="header__button_mobile-visible" id="open-mobile-menu">
+					<img id="open-mobile-menu-button" class="header__button_mobile-icon"
+						src="../images/mobile-menu/menu-open.svg" alt="Открыть">
+					<img id="close-mobile-menu-button" class="header__button_mobile-icon"
+						src="../images/mobile-menu/menu-close.svg" alt="Свернуть">
+				</a>
+			</div>
+		</div>
+		<div class="header-menu">
+			<div class="header-menu__container">
+				<div class="header-menu__section">
+					<div id="products-and-solutions-mobile-container">
+						<div class="menu-fixed-column">
+							<div class="menu-fixed-column__header">
+								<div class="menu-fixed-column__header-image">
+									<img src="../images/mobile-menu/products-and-solutions/egais.svg"
+										alt="Программы для учета алкоголя и напитков">
+								</div>
+								<h3>
+									Программы для учета алкоголя
+									и напитков
+								</h3>
+							</div>
+
+							<div class="menu-fixed-column__links menu-fixed-column__links-mobile">
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											ISOMAG-IC
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет и маркировка напитков и соков
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master UTM
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет немаркированной продукции
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master UTM MK
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет маркированного пива и слабоалкогольных напитков
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master UTM PRO
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											поштучный учет крепкого алкоголя, маркированного пива и слабого алкоголя
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master InPack
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											поштучный учет алкоголя зарубежного производства
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master UTM RE
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет алкоголя для HoReCa
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Master UTM Shop
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет крепкого алкоголя, пива и напитков в рознице
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Контур.Маркет
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											учет алкоголя
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu-fixed-column">
+							<div class="menu-fixed-column__header">
+								<div class="menu-fixed-column__header-image">
+									<img src="../images/mobile-menu/products-and-solutions/ib-systems.svg"
+										alt="Системы информационной безопасности">
+								</div>
+								<h3>
+									Системы информационной
+									безопасности
+								</h3>
+							</div>
+
+							<div class="menu-fixed-column__links menu-fixed-column__links-mobile">
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											ИСБО-ПЛЮС
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											интегрированная система безопасности объектов
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Киберполигон
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											система моделирования киберугроз и ликвидации инцидентов в инфоструктурах
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Avalanche Cyber Analyst
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											система анализа киберпространствадля оперативного обнаружения проблемы
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu-fixed-column">
+							<div class="menu-fixed-column__header">
+								<div class="menu-fixed-column__header-image">
+									<img src="../images/mobile-menu/products-and-solutions/ib-tools.svg"
+										alt="Средства защиты информации">
+								</div>
+								<h3>
+									Средства защиты информации
+								</h3>
+							</div>
+
+							<div class="menu-fixed-column__links menu-fixed-column__links-mobile">
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Рутокен
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											носитель для электронной подписи
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Крипто Про
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											для работы с электронной подписью
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Крипто АРМ
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											для работы с электронными документами
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											VipNet
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											технология для создания виртуальной сети и защиты информации в крупных сетях
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Континент
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											комплекс шифрования
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Jinn Client
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											средство криптозащиты информации для ЭП
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Secret Net
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											защита данных и инфраструктуры серверов
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="menu-fixed-column">
+							<div class="menu-fixed-column__header">
+								<div class="menu-fixed-column__header-image">
+									<img src="../images/mobile-menu/products-and-solutions/business-tools.svg"
+										alt="Сервисы для бизнеса">
+								</div>
+								<h3>
+									Сервисы для бизнеса
+								</h3>
+							</div>
+
+							<div class="menu-fixed-column__links menu-fixed-column__links-mobile">
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Электронный документооборот
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											обмен документами с контрагентами
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Электронная отчетность
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											отчетность во все контролирующие органы
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Сверка НДС
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											автоматическая сверка счетов-фактур с контрагентами
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Поиск закупок
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											онлайн-поиск тендеров по 44-ФЗ, 223-ФЗ и коммерческим площадкам
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Проверка контрагентов
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											онлайн-проверка контрагентов на благонадежность
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Справочно-правовая система
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											сервис по бухгалтерским, кадровым и юридическим темам
+										</span>
+									</a>
+								</div>
+
+								<div class="menu-fixed-column__divider"></div>
+
+								<div class="menu-fixed-column__link">
+									<a>
+										<span class="menu-fixed-column__link-header">
+											Сервис видеоконференц-связи
+										</span>
+										<br>
+										<span class="menu-fixed-column__link-description">
+											программа для видео конференций
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="header-mobile-menu-links">
+						<ul class="header-menu__list">
+							<li class="header-menu__item"><a class="header-menu__link" href="/about/">Компания</a></li>
+							<li class="header-menu__item">
+								<a id="products-and-solutions-mobile-link" class="header-menu__link">Продукты и
+									решения</a>
+							</li>
+							<li class="header-menu__item"><a class="header-menu__link" href="/support/">Техподдержка</a>
+							</li>
+							<li class="header-menu__item"><a class="header-menu__link" href="/contacts/">Контакты</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__spacer"></div>
+	</header>
+	<div id="menu-fixed">
+		<div id="menu-fixed-container">
+			<div class="menu-fixed-column">
+				<div class="menu-fixed-column__header">
+					<h3>
+						Программы для учета алкоголя
+						и напитков
+					</h3>
+				</div>
+
+				<div class="menu-fixed-column__links">
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								ISOMAG-IC
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет и маркировка напитков и соков
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master UTM
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет немаркированной продукции
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master UTM MK
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет маркированного пива и слабоалкогольных напитков
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master UTM PRO
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								поштучный учет крепкого алкоголя, маркированного пива и слабого алкоголя
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master InPack
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								поштучный учет алкоголя зарубежного производства
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master UTM RE
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет алкоголя для HoReCa
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Master UTM Shop
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет крепкого алкоголя, пива и напитков в рознице
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Контур.Маркет
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								учет алкоголя
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu-fixed-column">
+				<div class="menu-fixed-column__header">
+					<h3>
+						Системы информационной
+						безопасности
+					</h3>
+				</div>
+
+				<div class="menu-fixed-column__links">
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								ИСБО-ПЛЮС
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								интегрированная система безопасности объектов
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Киберполигон
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								система моделирования киберугроз и ликвидации инцидентов в инфоструктурах
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Avalanche Cyber Analyst
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								система анализа киберпространствадля оперативного обнаружения проблемы
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu-fixed-column">
+				<div class="menu-fixed-column__header">
+					<h3>
+						Средства защиты информации
+					</h3>
+				</div>
+
+				<div class="menu-fixed-column__links">
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Рутокен
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								носитель для электронной подписи
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Крипто Про
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								для работы с электронной подписью
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Крипто АРМ
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								для работы с электронными документами
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								VipNet
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								технология для создания виртуальной сети и защиты информации в крупных сетях
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Континент
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								комплекс шифрования
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Jinn Client
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								средство криптозащиты информации для ЭП
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Secret Net
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								защита данных и инфраструктуры серверов
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="menu-fixed-column">
+				<div class="menu-fixed-column__header">
+					<h3>
+						Сервисы для бизнеса
+					</h3>
+				</div>
+
+				<div class="menu-fixed-column__links">
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Электронный документооборот
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								обмен документами с контрагентами
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Электронная отчетность
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								отчетность во все контролирующие органы
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Сверка НДС
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								автоматическая сверка счетов-фактур с контрагентами
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Поиск закупок
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								онлайн-поиск тендеров по 44-ФЗ, 223-ФЗ и коммерческим площадкам
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Проверка контрагентов
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								онлайн-проверка контрагентов на благонадежность
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Справочно-правовая система
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								сервис по бухгалтерским, кадровым и юридическим темам
+							</span>
+						</a>
+					</div>
+
+					<div class="menu-fixed-column__link">
+						<a>
+							<span class="menu-fixed-column__link-header">
+								Сервис видеоконференц-связи
+							</span>
+							<br>
+							<span class="menu-fixed-column__link-description">
+								программа для видео конференций
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div id="feedback-overlay">
+			<div id="feedback-container">
+				<form id="feedback-form">
+					<h3 id="feedback-header">Возникли вопросы?</h3>
+					<p id="feedback-description">
+						Заполните заявку, и наш специалист проконсультирует Вас
+					</p>
+
+					<div id="feedback-inputs-container">
+						<div class="feedback-group">
+							<label class="feedback-label" for="feedback-name">Имя</label><br>
+							<input type="text" name="name" id="feedback-name" class="feedback-input">
+						</div>
+
+						<div class="feedback-group">
+							<label class="feedback-label" for="feedback-phone">Телефон</label><br>
+							<input type="text" name="phone" id="feedback-phone" class="feedback-input">
+						</div>
+
+						<div class="feedback-group">
+							<label class="feedback-label" for="feedback-email">Email</label><br>
+							<input type="text" name="email" id="feedback-email" class="feedback-input">
+						</div>
+
+						<div class="feedback-group">
+							<label class="feedback-label" for="feedback-comment">
+								Ваш вопрос <span class="feedback-label-description">(если&nbsp;Вы&nbsp;наш&nbsp;клиент,
+									укажите&nbsp;свой&nbsp;ИНН)</span>
+							</label><br>
+							<textarea name="comment" id="feedback-comment" class="feedback-textarea"></textarea>
+						</div>
+
+						<div class="feedback-group" id="feedback-submit-group">
+							<input type="submit" value="Отправить" id="feedback-submit">
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- -------------------------- end-of-header ----------------------------		 -->
+
+		<link rel="stylesheet" href="../styles/contacts.css">
+
+		<div class="container" id="container-contacts">
+			<section class="contacts">
+				<h1 class="contacts_h1 max">Контакты АО «ЦентрИнформ»</h1>
+				<h1 class="contacts_h1 min">Контакты<br />АО «ЦентрИнформ»</h1>
+
+				<div class="contacts-cards">
+					<div class="contacts-card_div" id="contacts-apeal">
+						<a class="contacts-card_a  show-popup " href="mailto:info@center-inform.ru">
+							<p class="contacts-card_title">Обращение</p>
+							<p class="contacts-card_text"> если у Вас возник вопрос – <br /> напишите нам </p>
+						</a>
+					</div>
+					<div class="contacts-card_div" id="contacts-request">
+						<a class="contacts-card_a" href="mailto:info@center-inform.ru">
+							<p class="contacts-card_title">Официальный запрос</p>
+							<p class="contacts-card_text text1">
+								для отправки <br /> служебных писем на:
+							</p>
+							<p class="contacts-card_text text2">info@center-inform.ru</p>
+						</a>
+					</div>
+					<div class="contacts-card_div" id="contacts-details">
+						<p class="contacts-card_title">Реквизиты</p>
+						<p class="contacts-card_text">карточка организации</p>
+					</div>
+					<div class="contacts-card_div" id="contacts-branches">
+						<p class="contacts-card_title"> Филиалы <br /> и подразделения </p>
+						<p class="contacts-card_text">в 19 городах России</p>
+					</div>
+				</div>
+			</section>
+			<section class="addresses">
+				<div id="invocieContainer">
+					<div class="row">
+						<div class="adresses-cards">
+							<div class="adresses-card_div">
+								<p class="adresses-card_title">Адрес офиса:</p>
+								<p class="adresses-card_text"> Санкт-Петербург, ул. Комсомола, <br /> д. 1-3, литера АС
+									<br />
+									(ст. метро «Площадь Ленина»)
+								</p>
+							</div>
+							<div class="adresses-card_div">
+								<p class="adresses-card_title">Адрес для переписки:</p>
+								<p class="adresses-card_text"> 195009, Санкт-Петербург, <br /> а/я 269 </p>
+							</div>
+							<div class="adresses-card_div">
+								<p class="adresses-card_title">Телефоны:</p>
+								<p class="adresses-card_text">+7 (812) 303-90-20 <br /> +7 (812) 740-54-05 </p>
+							</div>
+							<div class="adresses-card_div">
+								<p class="adresses-card_title">Время работы:</p>
+								<p class="adresses-card_text">пн.-чт. с 9:00 до 18:00 <br /> пт. с 9:00 до 16:45</p>
+							</div>
+							<div class="adresses-card_div min">
+								<p class="adresses-card_title">E-mail:</p>
+								<p class="adresses-card_text">info@center-inform.ru</p>
+							</div>
+							<p class="adresses-card_p link-details">Реквизиты</p>
+							<p class="adresses-card_p link-branch-contacts">Контакты филиалов</p>
+						</div>
+
+						<div class="adresses-img">
+							<img class="image max" src="../images/contacts/adresses.jpg" loading="lazy" alt="">
+							<p class="adresses-img-title">Важная информация</p>
+							<img class="image min" src="../images/contacts/find-2gis.jpg" loading="lazy" alt="">
+						</div>
+						<div class="adresses-attention">
+							<div class="adresses-attention-column adresses-attention-left">
+								<div class="adress-attention-block">
+									<div class="adress-attention-block-icon">
+										<img class="icon" src="../images/contacts/addresses-attention.svg" alt="">
+									</div>
+									<div class="adress-attention-block-info">
+										<p class="adress-attention-block-info-text max">1. Офисное здание ЦентрИнформ
+											находится
+											на
+											территории завода<br>
+											Арсенал во дворе между зданиями 1 и 3 по ул. Комсомола.<br>Чтобы войти в
+											здание и
+											выйти из него необходимо воспользоваться<br>гостевым пропуском или звонком.
+											Прием
+											клиентов осуществляет<br>ся на первом этаже в кабинете № 107.
+										</p>
+										<p class="adress-attention-block-info-text min">1. Офисное здание ЦентрИнформ
+											находится
+											на
+											территории завода
+											Арсенал во дворе между зданиями 1 и 3 по ул. Комсомола. Чтобы войти в здание
+											и
+											выйти из него необходимо воспользоваться гостевым пропуском или звонком.
+											Прием
+											клиентов осуществляет&shy;ся на первом этаже в кабинете № 107.
+										</p>
+									</div>
+								</div>
+								<div class="adress-attention-block left-down">
+									<div class="adress-attention-block-icon"><img class="icon"
+											src="../images/contacts/addresses-attention.svg" alt=""></div>
+									<div class="adress-attention-block-info">
+										<p class="adress-attention-block-info-text max">2. Доступ на территорию завода
+											осуществляется через турникет по<br>гостевым пропускам. Для получения
+											пропуска
+											потребуется паспорт или водительское удостоверение.</p>
+										<p class="adress-attention-block-info-text max">Для прохода необходимо:<br>•
+											выбрать на
+											экране терминала посещаемую
+											организацию - Цен<br>трИнформ,<br>
+											• в отсеке сканирования терминала разместить документ фотогра<br>фией
+											вниз,<br>
+											• нажать на экране терминала кнопку “получить пропуск”,<br>
+											• забрать пропуск в виде пластиковой карты и приложить его к счи<br>тывателю
+											турникета.
+										</p>
+										<p class="adress-attention-block-info-text min">2. Доступ на территорию завода
+											осуществляется через турникет по гостевым пропускам. Для получения пропуска
+											потребуется паспорт или водительское удостоверение.</p>
+										<p class="adress-attention-block-info-text min">Для прохода необходимо:<br>•
+											выбрать на
+											экране терминала посещаемую
+											организацию - Цен&shy;трИнформ,<br>
+											• в отсеке сканирования терминала разместить документ фотогра&shy;фией
+											вниз,<br>
+											• нажать на экране терминала кнопку “получить пропуск”,<br>
+											• забрать пропуск в виде пластиковой карты и приложить его к
+											счи&shy;тывателю
+											турникета.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="adresses-attention-column adresses-attention-right">
+								<div class="adress-attention-block">
+									<div class="adress-attention-block-icon"></div>
+									<div class="adress-attention-block-info">
+										<p class="adress-attention-block-info-text max" id="end-text">При использовании
+											паспорта
+											нового образца (с
+											01.07.22) получение<br>пропуска в терминале происходит в автоматическом
+											режиме.
+											<br><br>
+											При использовании паспорта старого образца или в/у, а также в<br>случае
+											возникновения
+											ошибки или некорректной работы термина<br>ла необходимо воспользоваться
+											кнопкой
+											терминала “Связь с охра<br> <span>ной” или получить пропуск на КПП у
+												шлагбаума.</span>
+										</p>
+										<p class="adress-attention-block-info-text min" id="end-text">При использовании
+											паспорта
+											нового образца (с
+											01.07.22) получение пропуска в терминале происходит в автоматическом режиме.
+											<br><br>
+											При использовании паспорта старого образца или в/у, а также в случае
+											возникновения
+											ошибки или некорректной работы термина&shy;ла необходимо воспользоваться
+											кнопкой
+											терминала “Связь с охра&shy;ной” или получить пропуск на КПП у шлагбаума.
+										</p>
+									</div>
+								</div>
+								<div class="adress-attention-block right-down">
+									<div class="adress-attention-block-icon"><img class="icon"
+											src="../images/contacts/addresses-attention.svg" alt=""></div>
+									<div class="adress-attention-block-info">
+										<p class="adress-attention-block-info-text max">3. Для проезда на территорию
+											завода на
+											автомобиле необходимо<br>сообщить на КПП, что вы приехали в ЦентрИнформ,
+											предъявить
+											до<br>кумент, удостоверяющий личность, получить гостевой пропуск
+											и<br>приложить его
+											считывателю шлагбаума.</p>
+										<p class="adress-attention-block-info-text min">3. Для проезда на территорию
+											завода на
+											автомобиле необходимо сообщить на КПП, что вы приехали в ЦентрИнформ,
+											предъявить
+											до&shy;кумент, удостоверяющий личность, получить гостевой пропуск и
+											приложить его
+											считывателю шлагбаума.</p>
+									</div>
+								</div>
+								<div class="address-attention-print-cnt">
+									<a href="" class="address-attention-print">
+										<p class="address-attention-print_p">Распечатайте контактную информацию</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="find-us">
+				<div class="find-us-left">
+					<div class="find-us-h1-cnt">
+						<div class="find-us-info-block-icon"></div>
+						<h1 class="find-us-h1">Найти нас легко</h1>
+					</div>
+					<div class="find-us-left-group">
+						<div class="find-us-info-block">
+							<div class="find-us-info-block-icon">
+								<img class="icon pedestrian" src="../images/contacts/find-pedestrian.svg" alt="">
+							</div>
+							<div class="find-us-info-block-info">
+								<div class="find-us-info-block-info-title">
+									<p class="find-us-info-block-info-title-p"> <span
+											class="find-us-info-block-info-title-span">• </span>Пешком от ст. метро пл.
+										Ленина</p>
+									<p class="find-us-info-block-info-text-p">
+										Выход на улицу Комсомола и Финляндский вокзал, при выходе из метро повернуть
+										налево.<br>
+										Дорога до офиса ЦентрИнформ
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="find-us-info-block">
+							<div class="find-us-info-block-icon">
+								<img class="icon bus" src="../images/contacts/find-bus.svg" alt="">
+							</div>
+							<div class="find-us-info-block-info">
+								<div class="find-us-info-block-info-title">
+									<p class="find-us-info-block-info-title-p"> <span
+											class="find-us-info-block-info-title-span">• </span>На общественном
+										транспорте
+									</p>
+									<p class="find-us-info-block-info-text-p">
+										От ст. метро пл. Ленина до ост.Арсенальная улица:<br>
+										Автобусы: 28, 37, 106, 107, 133, 176, 234.<br>
+										Троллейбусы: 3, 8, 38, 43.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="find-us-info-block">
+							<div class="find-us-info-block-icon">
+								<img class="icon car" src="../images/contacts/find-car.svg" alt="">
+							</div>
+							<div class="find-us-info-block-info">
+								<div class="find-us-info-block-info-title">
+									<p class="find-us-info-block-info-title-p"> <span
+											class="find-us-info-block-info-title-span">• </span>На личном автомобиле</p>
+									<p class="find-us-info-block-info-text-p">
+										Доехать до улицы Комсомола 1, повернуть в боковой проезд.
+									</p>
+									<p class="find-us-info-block-info-text-p">
+										Въезд на территорию осуществляется через КПП за памятником М.В. Фрунзе.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="find-us-info-block">
+							<div class="find-us-info-block-icon">
+								<img class="icon parking" src="../images/contacts/find-parking.svg" alt="">
+							</div>
+							<div class="find-us-info-block-info">
+								<div class="find-us-info-block-info-title">
+									<p class="find-us-info-block-info-title-p"> <span
+											class="find-us-info-block-info-title-span">• </span>Парковка на территории
+									</p>
+									<p class="find-us-info-block-info-text-p">
+										На территории есть парковка. <br>
+										Автомобиль можно припарковать на любом свободном месте</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="find-us-right">
+					<div class="find-us-right-img" id="yandex">
+						<picture class="">
+							<source srcset="../images/contacts/find-yandex1925.jpg" type="image/jpg" loading="lazy"
+								media="(min-width:1249px)" />
+							<source srcset="../images/contacts/find-yandex1248.jpg" type="image/jpg" loading="lazy"
+								media="(max-width:1249px) and (min-width:643px)" />
+							<img src="../images/contacts/find-yandex642.jpg" alt="" loading="lazy"
+								media="(max-width:642px)" />
+						</picture>
+					</div>
+					<div class="find-us-right-img" id="2gis">
+						<img src="../images/contacts/find-2gis.jpg" alt="" loading="lazy" />
+					</div>
+				</div>
+			</section>
+			<section class="details">
+				<div class="details-img-div-wrapper">
+					<div class="details-img-div">
+						<img class="details-img-pc" src="../images/contacts/details.jpg" alt="">
+						<img class="details-img-mobile" src="../images/contacts/details-mobile.png" alt="">
+						<img class="details-img-close" src="../images/contacts/details-branches-close.svg" alt="">
+
+						<div class="print-details-div">
+							<a href="" class="print-details">
+								<p>Распечатать реквизиты</p>
+							</a>
+						</div>
+
+
+
+					</div>
+				</div>
+			</section>
+			<section class="branches">
+				<img class="branches-img-close" src="../images/contacts/details-branches-close.svg" alt="">
+				<h1 class="branches-h1">Контакты филиалов<br>и обособленных подразделений</h1>
+				<div class="branches-cards">
+					<div class="branches-card-div" id="branches-card1">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Белгородский филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Белгород,<br>
+							ул. Попова, д. 58<br>
+							(4722) 58-59-18 <br>
+							funikov@r31.center-inform.ru <br>
+							center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card2">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Владивостокский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Владивосток, <br>
+							ул. Мыс Чумака, д. 1А, <br>
+							2 этаж, помещ. 12, 13 <br>
+							(423) 243 -35- 28, 43 -35- 46 <br>
+							post@ci25.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card3">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Екатеринбургский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Екатеринбург, <br>
+							ул. Хохрякова, д. 87, офис 421<br>
+							(343) 295-18-95<br>
+							info@r66.center-inform.ru<br>
+							r66.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card4">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Казанский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							Республика Татарстан,<br>
+							г. Казань, ул. Сибирский тракт,<br>
+							д. 34 корпус 4<br>
+							(843) 527-98-10<br>
+							info@r16.center-inform.ru<br>
+							r16.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card5">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Калининградский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Калининград,<br>
+							ул. Чехова, д. 1а<br>
+							(4012) 36-34-43, 36-30-77<br>
+							s.osokin@r39.center-inform.ru<br>
+							r39.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-tripple" id="branches-card6">
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Краснодарский
+									филиал</p>
+							</div>
+							<p class="brances-card-text">
+								г. Краснодар,<br>
+								ул. Вишняковой, д. 2<br>
+								(861) 202-21-71<br>
+								info@r23.center-inform.ru<br>
+								r23.center-inform.ru
+							</p>
+						</div>
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Обособленное
+									подразделение </p>
+							</div>
+							<p class="brances-card-text">
+								г. Симферополь,<br>
+								ул. Севастопольская, 76,<br>
+								4 этаж, оф. 8<br>
+								(3652) 583-361, (978) 71-87-633<br>
+								info@r23.center-inform.ru
+							</p>
+							<div class="branches-card-separator-vertic"></div>
+							<div class="branches-card-separator-horiz"></div>
+						</div>
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Обособленное
+									подразделение </p>
+							</div>
+							<p class="brances-card-text">
+								г. Ставрополь,<br>
+								Проспект Кулакова, 13И,<br>
+								каб. 142<br>
+								(8652) 56-72-19<br>
+								info@r23.center-inform.ru
+							</p>
+							<div class="branches-card-separator-vertic"></div>
+							<div class="branches-card-separator-horiz"></div>
+						</div>
+					</div>
+					<div class="branches-card-div" id="branches-card7">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Кировский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Киров,<br>
+							ул. Ленина, д. 85<br>
+							(8332) 212-818<br>
+							info@r43.center-inform.ru<br>
+							r43.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-dubble" id="branches-card8">
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Липецкий
+									филиал</p>
+							</div>
+							<p class="brances-card-text">
+								г. Липецк,<br>
+								ул. Угловая, д. 15, пом. 4<br>
+								(4742) 28-68-66<br>
+								info@r48.center-inform.ru<br>
+								r48.center-inform.ru
+							</p>
+						</div>
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Обособленное
+									подразделение </p>
+							</div>
+							<p class="brances-card-text">
+								г. Воронеж,<br>
+								ул. Кольцовская, д.24, офис 303<br>
+								(473) 250-20-27<br>
+								vrn@r48.center-inform.ru<br>
+								r48.center-inform.ru
+							</p>
+							<div class="branches-card-separator-vertic"></div>
+							<div class="branches-card-separator-horiz"></div>
+						</div>
+					</div>
+					<div class="branches-card-div" id="branches-card9">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Московский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Москва, Каширское шоссе,<br>
+							д. 3, корпус 2, строение 12<br>
+							(Бизнес Центр "СИРИУС ПАРК")<br>
+							(495) 269-38-11<br>
+							info@r77.center-inform.ru<br>
+							r77.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card10">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Нижегородский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Нижний Новгород,<br>
+							пр. Гагарина, д. 28<br>
+							(831) 416-01-95<br>
+							ntc@atnn.ru<br>
+							r52.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-dubble" id="branches-card11">
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Новосибирский
+									филиал</p>
+							</div>
+							<p class="brances-card-text">
+								г. Новосибирск,<br>
+								ул. Фрунзе, д. 5, офис 301<br>
+								(383) 383-30-00<br>
+								info@r54.center-inform.ru<br>
+								r54.center-inform.ru
+							</p>
+						</div>
+						<div class="branches-card-div">
+							<div class="brances-card-title-flex">
+								<div class="brances-card-title-flex-logo-div">
+									<img class="brances-card-title-flex-logo-img"
+										src="../images/contacts/branches-card-logo.png" alt="">
+								</div>
+								<p class="brances-card-title-flex-title">Обособленное
+									подразделение </p>
+							</div>
+							<p class="brances-card-text">
+								г. Красноярск,<br>
+								ул. Телевизорная, 1, стр. 9, оф. 515<br>
+								(391) 200-38-91<br>
+								info@vsibf.center-inform.ru<br>
+								r54.center-inform.ru
+							</p>
+							<div class="branches-card-separator-vertic"></div>
+							<div class="branches-card-separator-horiz"></div>
+						</div>
+					</div>
+					<div class="branches-card-div" id="branches-card12">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Пензенский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Пенза, <br>
+							ул. Коммунистическая, 28<br>
+							БЦ «Сокол», 6 этаж<br>
+							(8412) 23-53-03 <br>
+							info@r58.center-inform.ru <br>
+							r58.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card13">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Рязанский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Рязань, <br>
+							ул. Садовая, д. 24а, офис 310<br>
+							(4912) 720-720<br>
+							info@r62.center-inform.ru<br>
+							r62.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card14">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Ульяновский
+								филиал</p>
+						</div>
+						<p class="brances-card-text">
+							г. Ульяновск,<br>
+							ул. Радищева, .143, корп.3 <br>
+							(8422) 24-81-50<br>
+							sales@r73.center-inform.ru<br>
+							r73.center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div" id="branches-card15">
+						<div class="brances-card-title-flex">
+							<div class="brances-card-title-flex-logo-div">
+								<img class="brances-card-title-flex-logo-img"
+									src="../images/contacts/branches-card-logo.png" alt="">
+							</div>
+							<p class="brances-card-title-flex-title">Обособленное
+								подразделение<br>
+								АО «Центринформ» </p>
+						</div>
+						<p class="brances-card-text">
+							г. Волгоград, <br>
+							ул. Невская, 12а<br>
+							(812) 303-90-20 доб. 02432<br>
+							a.zemko@center-inform.ru
+						</p>
+					</div>
+					<div class="branches-card-div transparent" id="branches-card16"></div>
+					<div class="branches-card-div transparent" id="branches-card17"></div>
+				</div>
+			</section>
+		</div>
+
+		<!-- <div id="invocieContainer">
+			<div class="row">
+							...Your html Page content here....
+			</div>
+</div> -->
+
+		<script src="../js/contacts/printThis.js"></script>
+		<script>
+			$(document).on("click", "#btnPrint", function (e) {
+				e.preventDefault();
+				e.stopPropagation();
+				$("#invocieContainer").printThis({
+					debug: false, // show the iframe for debugging
+					importCSS: true, // import page CSS
+					importStyle: true, // import style tags
+					printContainer: true, // grab outer container as well as the contents of the selector
+					loadCSS: "/Content/bootstrap.min.css", // path to additional css file - us an array [] for multiple
+					pageTitle: "", // add title to print page
+					removeInline: false, // remove all inline styles from print elements
+					printDelay: 333, // variable print delay; depending on complexity a higher value may be necessary
+					header: null, // prefix to html
+					formValues: true // preserve input/form values
+				});
+
+			});
+		</script>
+
+
+
+
+		<script src="../js/contacts/contacts.js"></script>
+
+		<!-- ------------------------------------- begin-of-footer ---------------------------------------------- -->
+	</main>
+	<footer>
+		<nav id="footer-links">
+			<div class="footer-column">
+				<h3 class="footer-column-colored-title">АО «ЦентрИнформ»</h3>
+				<p class="footer-column-text">Все права защищены 2010-2024</p>
+				<div class="footer-column-links">
+					<a class="footer-column-link" href="/">Условия работы с сайтом</a><br>
+				</div>
+			</div>
+
+			<div class="footer-column">
+				<h3 class="footer-column-title">Клиентам</h3>
+				<div class="footer-column-links">
+					<a class="footer-column-link" href="/products_and_solutions/">Продукты и решения</a><br>
+					<a class="footer-column-link" href="/support/">Техподдержка</a><br>
+					<a class="footer-column-link" href="/">Реквизиты</a><br>
+					<a class="footer-column-link" href="/">Карта сайта</a><br>
+				</div>
+			</div>
+
+			<div class="footer-column">
+				<h3 class="footer-column-title">Позвоните нам</h3>
+				<div class="footer-column-links">
+					<a class="footer-column-link" href="tel:88123039020">+7 (812) 303-90-20</a><br>
+					<a class="footer-column-link" href="tel:88127405405">+7 (812) 740-54-05</a><br>
+				</div>
+
+				<h3 class="footer-column-title">Напишите нам</h3>
+				<div class="footer-column-links">
+					<a class="footer-column-link" href="mailto:info@center-inform.ru">info@center-inform.ru</a><br>
+				</div>
+			</div>
+
+			<div class="footer-column">
+				<h3 class="footer-column-title">Приезжайте к нам</h3>
+				<p class="footer-column-text">
+					<a class="footer-column-link"
+						href="https://yandex.ru/maps/2/saint-petersburg/house/ulitsa_komsomola_1_3as/Z0kYdQBgS0IHQFtjfXV0d3hrZA==/?ll=30.371842%2C59.956350&utm_campaign=desktop&utm_medium=search&utm_source=maps&z=17"
+						target="_blank" rel="nofollow">
+						Санкт-Петербург,
+						ул. Комсомола, д. 1-3 литер АС
+					</a>
+				</p>
+
+				<h3 class="footer-column-title">Присоединяйтесь к нам: <a href="https://vk.com/c_inform" target="_blank"
+						rel="nofollow"><img src="images/vk-logo.svg" width="24" alt=""></a></h3>
+			</div>
+		</nav>
+	</footer>
+</body>
+
+</html>
